@@ -16,7 +16,7 @@ jobs:
         go-version: [ '1.17.x', '1.18.x', '1.19.x' ] # Use versions that support the required features
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v5
     - name: Setup Go environment
       uses: actions/setup-go@v5
       with:
